@@ -1,2 +1,3 @@
 # Java-20-days-Challenge
-I've started a 20-day coding journey focused on console-based Java projects, starting from the basics and working my way up to more advanced applications.
+- Week 1: Java & OOP Basics
+  - Day 1: Basic Calculator(add, subtract, multiply, divide)
