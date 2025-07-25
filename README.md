@@ -6,3 +6,4 @@
   - Day 4: Implement getter/setter methods and constructors in a class.
   - Day 5: Using inheritance: create a Person class and extend it with Doctor, Patient.
   - Day 6: Practicing polymorphism: method overriding and overloading examples.
+  _ Day 7: Student Grading System using OOP (average, grades, fail/pass).
