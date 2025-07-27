@@ -1,11 +1,12 @@
 # Java-20-days-Challenge
 - Week 1: Java & OOP Basics
   - Day 1: Basic Calculator(add, subtract, multiply, divide)
-  - Day 2: Built a Contact Book(name, phone number) using ArryList
-  - Day 3: Create a class Student with fields (name, age, marks) and display details.
+  - Day 2: Built a Contact Book(name, phone number) using ArrayList
+  - Day 3: Created a class Student with fields (name, age, marks) and display details.
   - Day 4: Implement getter/setter methods and constructors in a class.
-  - Day 5: Using inheritance: create a Person class and extend it with Doctor, Patient.
+  - Day 5: Using inheritance: created a Person class and extend it with Doctor, Patient.
   - Day 6: Practicing polymorphism: method overriding and overloading examples.
   - Day 7: Student Grading System using OOP (average, grades, fail/pass).
 - Week 2: File I/O & Advanced OOP
   - Day 8: Write & read data from a .txt file.
+  - Day 9: Created a simple login system using file I/O.
