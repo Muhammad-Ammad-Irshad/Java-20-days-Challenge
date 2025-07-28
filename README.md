@@ -10,3 +10,4 @@
 - Week 2: File I/O & Advanced OOP
   - Day 8: Write & read data from a .txt file.
   - Day 9: Created a simple login system using file I/O.
+  - Day 10: Using abstract classes and interfaces in a project (e.g. Shape class).
