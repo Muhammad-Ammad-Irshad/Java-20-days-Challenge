@@ -1,0 +1,2 @@
+0001,Bastard of Istanbul,Elif Shafak,false
+0002,Forty Rules of Love,Elif Shafak,false
