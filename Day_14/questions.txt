@@ -1,1 +1,60 @@
-
+What is the Capital of France?
+Berlin
+Madrid
+Paris
+Rome
+C
+Which Planet is known as the Red Planet?
+Earth
+Mars
+Jupiter
+Venus
+B
+Who wrote Hamlet?
+Charles Dickens
+Mark Twain
+William Shakespeare
+Leo Tolstoy
+C
+Which Programming language is used for android app development?
+Swift
+Kotlin
+Python
+Ruby
+B
+Who painted Mona Lisa?
+Vincent van Gogh
+Pablo Picasso
+Leonardo da Vinci
+Claude Monet
+C
+What is the largest animal on Earth?
+Elephant
+Whale Shark
+Blue Whale
+Giraffe
+C
+Which Country hosted the FIFA World Cup 2022?
+Russia
+Brazil
+America
+Qatar
+D
+Who is the Greatest Footballer of all time?
+Lionel Messi
+Maradona
+Cristiano Ronaldo
+Ronaldo Nazario
+C
+Who Won the Ballon'dor 2022?
+Lionel Messi
+Mbappe
+Benzema
+Lewandowski
+C
+Who is the Ninja Turtle?
+Mbappe
+Haaland
+Rodrigo
+Phil Foden
+A
