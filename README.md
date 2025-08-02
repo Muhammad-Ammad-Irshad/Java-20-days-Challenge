@@ -1,17 +1,19 @@
 # Java-20-days-Challenge
-- Week 1: Java & OOP Basics
-  - Day 1: Basic Calculator(add, subtract, multiply, divide)
-  - Day 2: Built a Contact Book(name, phone number) using ArrayList
-  - Day 3: Created a class Student with fields (name, age, marks) and display details.
-  - Day 4: Implement getter/setter methods and constructors in a class.
-  - Day 5: Using inheritance: created a Person class and extend it with Doctor, Patient.
-  - Day 6: Practicing polymorphism: method overriding and overloading examples.
-  - Day 7: Student Grading System using OOP (average, grades, fail/pass).
-- Week 2: File I/O & Advanced OOP
-  - Day 8: Write & read data from a .txt file.
-  - Day 9: Created a simple login system using file I/O.
+- Week  1: Java & OOP Basics
+  - Day  1: Basic Calculator(add, subtract, multiply, divide)
+  - Day  2: Built a Contact Book(name, phone number) using ArrayList
+  - Day  3: Created a class Student with fields (name, age, marks) and display details.
+  - Day  4: Implement getter/setter methods and constructors in a class.
+  - Day  5: Using inheritance: created a Person class and extend it with Doctor, Patient.
+  - Day  6: Practicing polymorphism: method overriding and overloading examples.
+  - Day  7: Student Grading System using OOP (average, grades, fail/pass).
+- Week  2: File I/O & Advanced OOP
+  - Day  8: Write & read data from a .txt file.
+  - Day  9: Created a simple login system using file I/O.
   - Day 10: Using abstract classes and interfaces in a project (e.g. Shape class).
   - Day 11: Built a Library Management System with (add/search books, borrow/return).
   - Day 12: Implemented exception handling in file operations.
   - Day 13: Developed a class for Bank Account with (create, deposit, withdraw, balance check).
   - Day 14: Quiz App (load questions from file, score calculation, save highest score and display).
+- Week  3: Management System Focus
+  - Day 15: Built Patient class with name, ID, age, history.
