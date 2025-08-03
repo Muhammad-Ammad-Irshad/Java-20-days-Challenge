@@ -11,7 +11,10 @@ package com.mycompany.week_3;
 public class Week_3 {
 
     public static void main(String[] args) {
-        Patient p1 = new Patient("Pogba", "P10", 32, "ACL Injury");
+        Patient p1 = new Patient("Michal", "P10", 26, "Diabetes");
         p1.displayInfo();
+        
+        Doctor d1 = new Doctor("Dr. Sara", "S123", "Cardiologist", true);
+        d1.displayInfo();
     }
 }
