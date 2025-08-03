@@ -17,3 +17,4 @@
   - Day 14: Quiz App (load questions from file, score calculation, save highest score and display).
 - Week  3: Management System Focus
   - Day 15: Built Patient class with name, ID, age, history.
+  - Day 16: Add Doctor class with specialization, ID, name, and availability.
