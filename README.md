@@ -18,3 +18,4 @@
 - Week  3: Management System Focus
   - Day 15: Built Patient class with name, ID, age, history.
   - Day 16: Add Doctor class with specialization, ID, name, and availability.
+  - Day 17: Appointment class.
