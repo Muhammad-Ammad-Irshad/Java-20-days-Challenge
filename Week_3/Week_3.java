@@ -16,5 +16,8 @@ public class Week_3 {
         
         Doctor d1 = new Doctor("Dr. Sara", "S123", "Cardiologist", true);
         d1.displayInfo();
+        
+        Appointment a1 = new Appointment(p1, d1, "2025-08-04", "10:30 AM");
+        a1.displayInfo();
     }
 }
