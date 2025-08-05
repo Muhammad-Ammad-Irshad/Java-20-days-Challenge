@@ -1,0 +1,1 @@
+Date: 2025-08-04, Time: 10:30 AM, Patient: Michal, (ID: P10), Doctor: Dr. Sara(ID: S123)
