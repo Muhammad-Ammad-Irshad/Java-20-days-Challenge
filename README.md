@@ -19,3 +19,4 @@
   - Day 15: Built Patient class with name, ID, age, history.
   - Day 16: Add Doctor class with specialization, ID, name, and availability.
   - Day 17: Appointment class.
+  - Day 18: Added file storage for patient and appointment records.
