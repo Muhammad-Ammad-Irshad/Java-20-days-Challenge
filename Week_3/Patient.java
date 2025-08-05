@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.week_3;
-
+import java.io.FileWriter;
+import java.io.IOException;
 /**
  *
  * @author DELL 5410
@@ -48,10 +49,19 @@ public class Patient {
     }
     
     public void displayInfo(){
+        System.out.println("-----------------------------");
         System.out.println("Patient ID: "+id);
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
         System.out.println("History: "+medicalHistory);
-        
+        System.out.println("-----------------------------");
+    }
+    
+    public void saveToFile(){
+        try(FileWriter writer = new FileWriter("patients.txt", true)){
+            writer.write("ID: "+id+", Name: "+name+", Age: "+age+", History: "+medicalHistory);
+        }catch(IOException e){
+            System.out.println("Error saving patient: "+e.getMessage());
+        }
     }
 }
