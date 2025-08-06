@@ -20,3 +20,4 @@
   - Day 16: Add Doctor class with specialization, ID, name, and availability.
   - Day 17: Appointment class.
   - Day 18: Added file storage for patient and appointment records.
+  - Day 19: Added search and delete features to the hospital system.
