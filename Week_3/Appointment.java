@@ -22,19 +22,6 @@ public class Appointment {
         this.time = time;
     }
     
-    public Patient getPatient(){
-        return patient;
-    }
-    public Doctor getDoctor(){
-        return doctor;
-    }
-    public String getDate(){
-        return date;
-    }
-    public String getTime(){
-        return time;
-    }
-    
     public void displayInfo(){
         System.out.println("---Appointment Details---");
         System.out.println("Date: "+date);
@@ -47,11 +34,14 @@ public class Appointment {
     
     public void saveToFile(){
         try(FileWriter writer = new FileWriter("appointments.txt", true)){
-            writer.write("Date: "+date+", Time: "+time+
-                    ", Patient: "+patient.getName()+", (ID: "+patient.getId()+")"+
-                    ", Doctor: "+doctor.getName()+"(ID: "+doctor.getId()+")\n");
+            writer.write(toString()+"\n");
         }catch(IOException e){
             System.out.println("Error saving appointment: "+e.getMessage());
         }
+    }
+    public String toString(){
+        return "Date: "+date+", Time: "+time+
+                ", Patient: "+patient.getName()+" (ID: "+patient.getId()+")"+
+                    ", Doctor: "+doctor.getName()+"(ID: "+doctor.getId()+")";
     }
 }

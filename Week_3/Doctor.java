@@ -21,6 +21,15 @@ public class Doctor {
         this.isAvailable = isAvailable;
     }
     
+    public void displayInfo(){
+        System.out.println("------------------------------");
+        System.out.println("Doctor ID: "+id);
+        System.out.println("Name: "+name);
+        System.out.println("Specialization: "+specialization);
+        System.out.println("Available: "+(isAvailable ? "Yes" : "No"));
+        System.out.println("------------------------------");
+    }
+    
     public String getName(){
         return name;
     }
@@ -32,27 +41,5 @@ public class Doctor {
     }
     public boolean isAvailable(){
         return isAvailable;
-    }
-    
-    public void setName(String name){
-        this.name = name;
-    }
-    public void setId(String id){
-        this.id = id;
-    }
-    public void setSpecialization(String specialization){
-        this.specialization = specialization;
-    }
-    public void setAvailable(boolean isAvailable){
-        this.isAvailable = isAvailable;
-    }
-    
-    public void displayInfo(){
-        System.out.println("------------------------------");
-        System.out.println("Doctor ID: "+id);
-        System.out.println("Name: "+name);
-        System.out.println("Specialization: "+specialization);
-        System.out.println("Available: "+(isAvailable ? "Yes" : "No"));
-        System.out.println("------------------------------");
     }
 }
