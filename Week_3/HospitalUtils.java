@@ -4,7 +4,6 @@
  */
 package com.mycompany.week_3;
 import java.io.*;
-import java.util.*;
 /**
  *
  * @author DELL 5410
