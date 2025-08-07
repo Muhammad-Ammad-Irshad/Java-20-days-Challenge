@@ -22,31 +22,6 @@ public class Patient {
         this.medicalHistory = medicalHistory;
     }
     
-    public String getName(){
-        return name;
-    }
-    public String getId(){
-        return id;
-    }
-    public int getAge(){
-        return age;
-    }
-    public String getMedicalHistory(){
-        return medicalHistory;
-    }
-    
-    public void setName(String name){
-        this.name = name;
-    }
-    public void setId(String id){
-        this.id = id;
-    }
-    public void setAge(int age){
-        this.age = age;
-    }
-    public void setMedicalHistory(String medicalHistory){
-        this.medicalHistory = medicalHistory;
-    }
     
     public void displayInfo(){
         System.out.println("-----------------------------");
@@ -59,9 +34,18 @@ public class Patient {
     
     public void saveToFile(){
         try(FileWriter writer = new FileWriter("patients.txt", true)){
-            writer.write("ID: "+id+", Name: "+name+", Age: "+age+", History: "+medicalHistory);
+            writer.write(toString()+"\n");
         }catch(IOException e){
             System.out.println("Error saving patient: "+e.getMessage());
         }
+    }
+    public String toString(){
+        return "ID: "+id+", Name: "+name+", Age: "+age+", History: "+medicalHistory;
+    }
+    public String getId(){
+        return id;
+    }
+    public String getName(){
+        return name;
     }
 }
