@@ -21,3 +21,4 @@
   - Day 17: Appointment class.
   - Day 18: Added file storage for patient and appointment records.
   - Day 19: Added search and delete features to the hospital system.
+  - Day 20: Complete Hospital Management System with a menu-driven console interface, file I/O, and error handling.
